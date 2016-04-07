@@ -65,6 +65,7 @@ ETHERNET
 
 
 Other Resources:
-1. See datasheets folder
-2. https://sourceforge.net/projects/terk/ (Terk firmware and ARM compiler available)
-2. Via Wayback Machine: https://web.archive.org/web/20110713065937/http://www.terk.ri.cmu.edu/
+- See datasheets folder
+- https://sourceforge.net/projects/terk/ (Terk firmware and ARM compiler available)
+- http://www.aforgenet.com/articles/qwerk_start/
+- Via Wayback Machine: https://web.archive.org/web/20110713065937/http://www.terk.ri.cmu.edu/
