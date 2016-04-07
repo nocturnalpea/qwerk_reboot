@@ -43,7 +43,26 @@ TERMINAL
 5. Hit 'Enter' after everything loads to get into Linux
 
 ETHERNET
-<To-do>
+1. Turn Qwerk off
+2. Connect ethernet between unit and PC
+3. Change TCP/IP (v4) to: IP address: 192.168.1.150 (subnet 255.255.255.0)
+4. Hold down CFG button on Qwerk and power-on while holding down the button. Wait till all LEDs begin blinking before letting go.
+5. You are now in Diagnostic Mode
+6. Reset by hitting CFG 7X (LED 6 will light up followed by all LEDs blinking notifying you that you're in diagnostics menu)
+7. Goto static IP mode: hit CFG 5X (LED 4 lights up)
+8. Open browser and goto http://192.168.1.144
+9. Qwerk's ethernet configuration page!
+- General Configuration Tab:
+- Network Broadcast Name: change to something you want (ie http://yournamehere)
+- Client Connection Mode: switch to Direct-Connect since relay server is inactive now
+- Wireless Configuration Tab: configure your settings
+- Ethernet Configuration Tab:
+- Use the following IP address: set your setting for your local network
+- hit APPLY to save settings
+10. Exit Qwerk diagnostic mode by pressing CFG 8X
+11. LED 6 should blink
+12. If Qwerk connects to your local network, you should see LED 0, 1, and 2 light up.
+
 
 Other Resources:
 1. See datasheets folder
